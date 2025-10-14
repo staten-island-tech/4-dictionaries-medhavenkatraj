@@ -4,3 +4,4 @@ item = {
 "department": "desert",
 "description": "chocolate cookie with creamy vanilla filling"
 }
+print(item)
