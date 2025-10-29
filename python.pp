@@ -26,6 +26,6 @@ if input == ["oreos", "apple juice", "vanilla icecream"]:
     print(item["name"])
 print(input("would you like to continue shopping? "))
 if input == ("yes"):
-        print(input("would you like to buy oreos, apple juice or vanilla icecream? "))
+    print("would you like to buy oreos, apple juice or vanilla icecream? reply with yes or no:  ")
 elif input == ("no"):
-        print(input("thank you for shopping here!", item))
+    print(("thank you for shopping here!", item))
