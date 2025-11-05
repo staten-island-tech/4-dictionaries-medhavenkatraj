@@ -1,4 +1,4 @@
-best_buy_items = {
+best_buy_items = [
 {
     "name": "oreos",
     "price": 3.99,
@@ -20,7 +20,7 @@ best_buy_items = {
     "department": "icecream",
     "description": "cold, sweet, and refreshing treat "
 },
-}
+]
 cart = []
 print(input("welcome! would you like to buy oreos, apple juice, or vanilla icecream? "))
 if input == ["oreos", "apple juice", "vanilla icecrean" ]:
@@ -28,8 +28,27 @@ if input == ["oreos", "apple juice", "vanilla icecrean" ]:
 print("thanks for shopping here! ")
 print(input("do u wish to continue, reply with yes or no: "))
 if input == "no":
-    print("your total price is:", best_buy_items["price"])
+        print("your total price is:", best_buy_items["price"])
 elif input == "yes":
-    print("what woould you like: oreos, apple juice, or vanilla icecream?" )
+    print("what would you like: oreos, apple juice, or vanilla icecream?" )
 for index, best_buy_items in enumerate(best_buy_items):
-    print(index, ":", best_buy_items["name"])
+        print(index, ":", best_buy_items["name"])
+print(input("pick one: "))
+if input == "oreos":
+      print("great! your total price is:", best_buy_items["price"])
+if input == "apple juice":
+      print("great! your total price is:", best_buy_items["price"])
+if input == "vanilla icecream":
+      print("great! your total price is:", best_buy_items["price"])
+      
+            
+
+
+
+
+
+
+""" if input != "oreos" or input != "apple juice" or input != "vanilla icecream":
+    print("invalid, please try again: ") """
+""" if input!= "no" or input != "yes":
+    print("invalid, please try again! ") """
